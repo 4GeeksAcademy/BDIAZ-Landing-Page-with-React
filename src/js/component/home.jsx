@@ -35,11 +35,12 @@ const Home = () => {
 			<Navbar/>
 			<Jumbotron/>
 			<div>
-				{games.map((item, index) => {
+				{games.map((item, index)=>{
 					<Card key={index} titulo={item.titulo} descripcion={item.descripcion}/>
-					{console.log(item)}
 				})}
 			</div>
+
+
 		</>
 
 	);
