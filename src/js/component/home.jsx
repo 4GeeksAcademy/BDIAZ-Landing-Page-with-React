@@ -5,10 +5,16 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 import Navbar from "./Navbar.jsx"
 
+import Jumbotron from "./jumbotron.jsx"
+
 //create your first component
 const Home = () => {
 	return (
-		<Navbar/>
+		<div>
+			<Navbar/>
+			<Jumbotron/>
+		</div>
+
 	);
 };
 
