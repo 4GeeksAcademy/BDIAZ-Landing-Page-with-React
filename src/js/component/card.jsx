@@ -4,7 +4,7 @@ const Card = (props) => {
 	return (
         <div className=".col-sm-3">
         <div className="card text-center ">
-            <img src="https://picsum.photos/500/325" className="card-img-top" alt="..."/>
+            <img src={props.imagen} className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">{props.titulo}</h5>
                 <p className="card-text">{props.descripcion}</p>

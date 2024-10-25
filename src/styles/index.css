@@ -9,8 +9,19 @@
     
     import 'relative/path/to/stylesheet.scss';
 
-*/
+
 
 .card {
     width: 18rem;
+}
+
+*/
+
+* {
+    border: 1px dotted red;
+}
+
+.img-fluid {
+    height: 250px;
+    object-fit: cover;
 }

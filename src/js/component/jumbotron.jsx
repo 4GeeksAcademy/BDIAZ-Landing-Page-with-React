@@ -4,11 +4,11 @@ const Jumbotron = () => {
 	return (
         <>
         <div className="card text-bg-dark">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nintendo.svg/2560px-Nintendo.svg.png" className="card-img" alt="..."/>
-            <div className="card-img-overlay">
-                <h5 className="card-title h1">!Bienvenido!</h5>
-                <p className="card-text h2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary btn-lg">Go somewhere</a>
+            <img src="https://wallpapers.com/images/hd/video-game-zoom-background-13gurqi9gfhmu3s7.jpg" className="img-fluid" alt="..."/>
+            <div className="card-img-overlay text-black">
+                <h5 className="card-title h1 text-bg-dark bg-opacity-50">!Bienvenido!</h5>
+                <p className="card-text h3 text-bg-dark bg-opacity-50 mb-5">Este es el mundo nintendo!</p>
+                <a href="#" class="btn btn-primary btn-lg mt-auto">ir al nintendo</a>
             </div>
         </div>
         </>
