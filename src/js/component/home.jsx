@@ -8,6 +8,7 @@ import Navbar from "./Navbar.jsx"
 import Jumbotron from "./jumbotron.jsx"
 
 import Card from "./card.jsx"
+import Footer from "./footer.jsx"
 
 
 
@@ -33,14 +34,15 @@ const Home = () => {
 	return (
 		<>
 			<Navbar/>
-			<Jumbotron/>
-			<div>
-				{games.map((item, index)=>{
-					<Card key={index} titulo={item.titulo} descripcion={item.descripcion}/>
-				})}
+			<div className="container">
+				<Jumbotron/>
+				<div className="row">
+					{games.map((item, index)=>(
+						<Card key={index} titulo={item.titulo} descripcion={item.descripcion}/>
+					))}
+				</div>
 			</div>
-
-
+			<Footer />
 		</>
 
 	);

@@ -2,8 +2,8 @@ import React from "react";
 
 const Card = (props) => {
 	return (
-        <>
-        <div className="card text-center">
+        <div className=".col-sm-3">
+        <div className="card text-center ">
             <img src="https://picsum.photos/500/325" className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">{props.titulo}</h5>
@@ -11,7 +11,7 @@ const Card = (props) => {
                 <a href="#" className="btn btn-primary">Ver más</a>
             </div>
         </div>
-        </>
+        </div>
     );
 };
 
