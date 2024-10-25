@@ -3,13 +3,15 @@ import React from "react";
 const Footer = (props) => {
 	return (
         <>
-        <footer class="py-3 bg-secondary text-white text-center">
-            <div class="container">
-                <p class="mb-1">
-                 Copyright Your website 2024
-                </p>
-            </div>
-        </footer>
+            <footer className="bg-secondary text-light py-3">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 text-center">
+                            <p className="mb-0">&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </>
     );
 };
